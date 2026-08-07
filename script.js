@@ -168,6 +168,46 @@
       storyCtaProducts: "제품 만나보기",
       storyCtaBusiness: "비즈니스 문의",
 
+
+      biz2HeroTitle: "많은 곳보다,<br>잘 어울리는 곳에.",
+      biz2HeroBody: "PETSRO는 제품의 완성도만큼, 어떤 공간에서 어떻게 소개되는지도 중요하게 생각합니다. 입점·유통·행사·브랜드 협업 등 PETSRO와 잘 맞는 제안이라면 편하게 이야기 나누고 싶습니다.",
+      biz2HeroEmail: "비즈니스 문의",
+      biz2HeroExplore: "함께할 수 있는 일",
+
+      biz2StoreTitle: "선반 위에서도,<br>PETSRO답게.",
+      biz2StoreBody: "따뜻한 패키지, 한눈에 구분되는 단일 야채 라인업, 실제 내용물이 보이는 투명 용기. PETSRO는 제품 하나가 놓였을 때도 브랜드의 분위기와 제품의 차이가 자연스럽게 보이도록 만들었습니다.",
+      biz2StoreNoteLabel: "매장에서 보이는 PETSRO",
+      biz2StoreNote: "펫 전문 매장부터 취향 있는 라이프스타일 공간까지, 제품이 공간을 방해하기보다 자연스럽게 어우러지는 모습을 생각합니다.",
+
+      biz2StrengthsTitle: "제품 자체에서<br>이야기가 시작됩니다.",
+      biz2StrengthsIntro: "매장에서 길게 설명하지 않아도 제품의 재료와 쓰임, 서로 다른 라인업이 눈에 들어오도록 구성했습니다.",
+      biz2Strength1Title: "육류 간식과는 다른 식사 토퍼",
+      biz2Strength1Body: "국내산 야채를 작은 입자로 만들어 평소 사료 위에 더하는 Vegetable Meal Topper라는 분명한 제품 이야기가 있습니다.",
+      biz2Strength2Title: "고구마·당근·단호박, 각각 고르는 재미",
+      biz2Strength2Body: "여러 원료를 한 통에 섞기보다 야채별로 나누어, 고객이 원하는 원료를 보고 선택할 수 있습니다.",
+      biz2Strength3Title: "보이는 내용물, 분명한 제품 차이",
+      biz2Strength3Body: "투명 용기 안의 작은 입자와 야채마다 다른 색이 그대로 보여 제품을 처음 접하는 고객도 차이를 쉽게 확인할 수 있습니다.",
+      biz2Strength4Title: "한 제품에서 끝나지 않는 라인업",
+      biz2Strength4Body: "현재 고구마·당근·단호박에 이어 브로콜리 출시를 준비하고 있으며, 새로운 야채와 제품을 계속 고민하고 있습니다.",
+
+      biz2CollabTitle: "PETSRO와 함께할 수 있는 일.",
+      biz2CollabIntro: "제품을 소개하는 방식은 매장과 채널마다 다릅니다. 정해진 틀보다, 서로 잘 맞는 방법부터 이야기해보고 싶습니다.",
+      biz2Collab1Title: "입점 · 유통",
+      biz2Collab1Body: "펫 전문 매장, 편집숍, 라이프스타일숍, 온라인몰 등 PETSRO와 잘 어울리는 판매 채널의 제안을 기다립니다.",
+      biz2Collab2Title: "팝업 · 전시 · 행사",
+      biz2Collab2Body: "반려동물 관련 팝업, 전시, 행사처럼 고객과 직접 만나는 자리에서 함께할 수 있습니다.",
+      biz2Collab3Title: "브랜드 협업",
+      biz2Collab3Body: "반려동물의 일상을 바라보는 방향이 잘 맞는 브랜드와 콘텐츠·프로모션·기획 협업을 열어두고 있습니다.",
+      biz2Collab4Title: "해외 유통",
+      biz2Collab4Body: "PETSRO를 새로운 국가와 고객에게 소개할 해외 바이어 및 유통 파트너의 문의도 받고 있습니다.",
+
+      biz2FitTitle: "제품이 놓이는 공간과,<br>그곳을 찾는 사람까지.",
+      biz2FitBody: "PETSRO는 많은 곳에 들어가는 것보다, 제품과 공간이 잘 어울리고 그곳을 찾는 고객에게 자연스럽게 소개되는 관계를 더 중요하게 생각합니다.",
+      biz2FitQuote: "PETSRO와 잘 어울리는 곳이라면, 먼저 편하게 이야기해 주세요.",
+
+      biz2ContactTitle: "함께 보여주면 좋겠다는 생각이 들었다면,<br>그 이야기부터 들려주세요.",
+      biz2ContactBody: "입점, 유통, 행사, 브랜드 협업과 해외 비즈니스까지. 제안의 형태가 정해져 있지 않아도 괜찮습니다.",
+
       footerSlogan: "먹는 즐거움과 건강을 함께 담다.",
       footerCompany: "회사",
       footerCompanyName: "루비트리 / RUBYTREE",
@@ -341,6 +381,46 @@
       storyCtaProducts: "Explore our products",
       storyCtaBusiness: "Business inquiry",
 
+
+      biz2HeroTitle: "Made for places<br>where the brand feels at home.",
+      biz2HeroBody: "For PETSRO, where a product is introduced matters as much as how it is made. We welcome retail, distribution, event and brand collaboration ideas that feel like a natural fit.",
+      biz2HeroEmail: "Business Inquiry",
+      biz2HeroExplore: "Ways to Work Together",
+
+      biz2StoreTitle: "A clear presence,<br>without taking over the space.",
+      biz2StoreBody: "Warm packaging, a clear single-vegetable line and transparent containers give PETSRO a recognizable presence while fitting naturally into thoughtful pet and lifestyle retail.",
+      biz2StoreNoteLabel: "PETSRO in retail",
+      biz2StoreNote: "From specialist pet stores to curated lifestyle spaces, we want the product to feel considered, easy to understand and at home in its surroundings.",
+
+      biz2StrengthsTitle: "The product tells<br>its own story.",
+      biz2StrengthsIntro: "The ingredient, use and differences between varieties are designed to be easy to notice without a long explanation.",
+      biz2Strength1Title: "A vegetable-led meal topper",
+      biz2Strength1Body: "PETSRO turns Korean-grown vegetables into small-particle toppers designed to sprinkle over regular dog food—a clear alternative to meat-led treat formats.",
+      biz2Strength2Title: "One vegetable, one clear choice",
+      biz2Strength2Body: "Sweet Potato, Carrot and Kabocha are offered as individual varieties, making each ingredient easy to see and choose.",
+      biz2Strength3Title: "Visible product, visible difference",
+      biz2Strength3Body: "Transparent containers show the naturally varied particles and colors of each vegetable, helping customers recognize the difference at a glance.",
+      biz2Strength4Title: "A line designed to keep growing",
+      biz2Strength4Body: "Broccoli is being prepared as the next variety, with more vegetable ingredients and future product ideas under development.",
+
+      biz2CollabTitle: "Ways to work with PETSRO.",
+      biz2CollabIntro: "Every store and channel introduces products differently. We would rather start with what fits than force every partnership into the same format.",
+      biz2Collab1Title: "Retail & Distribution",
+      biz2Collab1Body: "We welcome conversations with pet stores, curated shops, lifestyle retailers, online channels and distribution partners.",
+      biz2Collab2Title: "Pop-ups, Shows & Events",
+      biz2Collab2Body: "PETSRO can take part in pet-focused pop-ups, exhibitions and events where brands meet customers in person.",
+      biz2Collab3Title: "Brand Collaboration",
+      biz2Collab3Body: "We are open to content, promotion and creative collaborations with brands that share a thoughtful view of life with pets.",
+      biz2Collab4Title: "International Distribution",
+      biz2Collab4Body: "We also welcome inquiries from overseas buyers and distribution partners interested in introducing PETSRO to new markets.",
+
+      biz2FitTitle: "We think about the space,<br>and the people who walk into it.",
+      biz2FitBody: "For us, a good retail relationship is not about being everywhere. It is about finding places where the product, the space and the customer make sense together.",
+      biz2FitQuote: "If PETSRO feels right for your space, we would be glad to hear from you.",
+
+      biz2ContactTitle: "If you can picture PETSRO<br>in something you are building, let’s talk.",
+      biz2ContactBody: "Retail, distribution, events, brand collaborations and international business inquiries are all welcome—even if the idea is still taking shape.",
+
       footerSlogan: "More joy and thoughtful choices for everyday mealtimes.",
       footerCompany: "Company",
       footerCompanyName: "RUBYTREE",
@@ -391,6 +471,20 @@
         ogTitle: "PETSRO Our Story | Shaped by Everyday Life with Pets",
         ogDescription: "Everyday life with pets shaped the questions, products and standards behind PETSRO."
       }
+    },
+    business: {
+      ko: {
+        title: "PETSRO Business | 입점·유통·브랜드 협업 문의",
+        description: "PETSRO는 국내 펫 전문 매장·라이프스타일숍·유통 파트너와의 입점, 유통, 행사 및 브랜드 협업 제안을 기다립니다.",
+        ogTitle: "PETSRO Business | 많은 곳보다, 잘 어울리는 곳에",
+        ogDescription: "PETSRO가 좋은 공간 안에서 자연스럽게 소개될 수 있도록, 입점·유통·행사·브랜드 협업 제안을 기다립니다."
+      },
+      en: {
+        title: "PETSRO Business | Retail, Distribution & Collaboration",
+        description: "Explore retail, distribution, event and brand collaboration opportunities with PETSRO, a Korean pet food brand.",
+        ogTitle: "PETSRO Business | Retail & Collaboration",
+        ogDescription: "Retail, distribution and collaboration opportunities with PETSRO."
+      }
     }
   };
 
@@ -400,7 +494,9 @@
       ? "ourFood"
       : document.body.classList.contains("story-page")
         ? "ourStory"
-        : "home";
+        : document.body.classList.contains("business-page")
+          ? "business"
+          : "home";
   const langButtons = Array.from(document.querySelectorAll(".home-lang-btn"));
   const menuToggle = document.querySelector(".home-menu-toggle");
   const mobileNav = document.querySelector(".home-mobile-nav");
