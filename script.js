@@ -72,7 +72,7 @@
       businessCall: "전화 문의",
       businessPage: "BUSINESS →",
 
-      foodHeroTitle: "좋은 야채를 골라,<br>먹이기 편하게 준비합니다.",
+      foodHeroTitle: "좋은 야채를 골라,<br>매일 챙겨주기 쉽게 준비합니다.",
       foodHeroBody: "PETSRO Veggie Topper는 국내산 고구마·당근·단호박으로 만듭니다.<br>야채마다 상태를 살펴 찌고 천천히 말려,<br>밥 위에 가볍게 뿌려줄 수 있도록 준비합니다.",
 
       foodCareTitle: "야채를 챙겨주고 싶어도,<br>매번 직접 준비하기는 쉽지 않으니까.",
@@ -132,7 +132,7 @@
       storyJourneyTitle: "처음에는 간식부터 만들었습니다.<br>그다음에는 매일 먹는 밥을 생각했습니다.",
       storyJourneyIntro: "간식을 만들며 쌓은 경험을 바탕으로, 밥 위에 야채를 간편하게 더할 수 있는 Veggie Topper를 만들었습니다.",
       storyJourney1Title: "간식부터 시작했습니다.",
-      storyJourney1Body: "닭안심·오리안심·말고기 간식을 만들며 반려동물 먹거리를 직접 다뤄왔습니다.",
+      storyJourney1Body: "반려동물 간식을 직접 만들며 좋은 재료와 만드는 방법을 꾸준히 고민해왔습니다.",
       storyJourney2Title: "매일 먹는 밥도 고민했습니다.",
       storyJourney2Body: "간식뿐 아니라 매일 먹는 밥에도 새로운 맛과 재료를 더해주고 싶었습니다.",
       storyJourney3Title: "Veggie Topper를 만들었습니다.",
@@ -272,7 +272,7 @@
       businessCall: "Call Us",
       businessPage: "BUSINESS →",
 
-      foodHeroTitle: "Good vegetables,<br>prepared for easy serving.",
+      foodHeroTitle: "Good vegetables,<br>made easy to add every day.",
       foodHeroBody: "PETSRO Veggie Topper is made with Korean-grown sweet potato, carrot and kabocha.<br>We steam and slowly dry each vegetable,<br>then prepare it so it is easy to sprinkle over meals.",
 
       foodCareTitle: "Fresh vegetables are worth serving.<br>Preparing them every time can be a lot.",
@@ -332,7 +332,7 @@
       storyJourneyTitle: "We started with treats.<br>Then we began thinking about everyday meals.",
       storyJourneyIntro: "The experience we gained from making treats led us to Veggie Topper, created to make it easy to add vegetables to everyday meals.",
       storyJourney1Title: "We started with treats.",
-      storyJourney1Body: "We made chicken tenderloin, duck tenderloin and horse meat treats, building hands-on experience with pet food ingredients.",
+      storyJourney1Body: "We began by making pet treats, learning more about ingredients and how to prepare them well.",
       storyJourney2Title: "Then we thought about everyday meals.",
       storyJourney2Body: "We wanted to bring new flavors and ingredients not only to treats, but also to the food dogs eat every day.",
       storyJourney3Title: "We created Veggie Topper.",
