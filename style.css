@@ -2073,3 +2073,34 @@ section{padding:66px 0}
     font-size:11.5px;
   }
 }
+
+
+/* OUR STORY — restored journey image */
+.story-journey-media{
+  width:min(1480px,calc(100% - 48px));
+  margin:0 auto 58px;
+  overflow:hidden;
+  border-radius:34px;
+  background:#EDE5DA;
+  box-shadow:var(--petsro-shadow);
+}
+
+.story-journey-media img{
+  width:100%;
+  aspect-ratio:1672/941;
+  object-fit:cover;
+  object-position:center center;
+}
+
+@media (max-width:700px){
+  .story-journey-media{
+    width:calc(100% - 32px);
+    margin-bottom:38px;
+    border-radius:22px;
+  }
+
+  .story-journey-media img{
+    aspect-ratio:4/3;
+    object-position:52% center;
+  }
+}
