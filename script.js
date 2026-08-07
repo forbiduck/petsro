@@ -125,6 +125,49 @@
       foodCtaShop: "구매하기",
       foodCtaBusiness: "비즈니스 문의 ↗",
 
+
+      storyHeroTitle: "함께한 시간이,<br>우리가 만드는 것의 기준이 되었습니다.",
+      storyHeroBody: "매일 밥을 챙기고, 잘 먹는지 살피고,<br>무엇을 먹일지 한 번 더 생각하는 시간.<br>PETSRO는 그렇게 함께 살아가는 평범한 일상에서 시작했습니다.",
+      storyOriginTitle: "잘 먹는 모습이 좋았습니다.<br>그래서 무엇을 먹이는지도 더 생각하게 됐습니다.",
+      storyOriginBody1: "사료를 챙기고, 간식을 고르고, 밥그릇 앞의 반응을 살피는 일은 반려동물과 사는 사람에게 아주 평범한 하루입니다.",
+      storyOriginBody2: "하지만 그 하루가 쌓일수록 기준도 조금씩 달라졌습니다. 잘 먹는 즐거움만큼 무엇을 먹이고 있는지 알고 선택하는 일도 중요해졌고, 그 고민이 PETSRO가 제품을 만들기 시작한 이유가 되었습니다.",
+      storyOriginQuote: "거창한 아이디어보다, 매일 곁에서 생긴 작은 질문에서 시작했습니다.",
+      storyThinkingTitle: "만들고, 살피고, 듣고,<br>다시 다듬습니다.",
+      storyThinkingIntro: "좋은 제품은 한 번의 아이디어로 끝나지 않는다고 생각합니다.",
+      storyThinkingBody: "어떤 제품이 필요할지 생각하고, 직접 만들어보고, 반려견의 식사와 반응을 살핍니다. 보호자들이 무엇을 궁금해하는지 듣고, 제품과 설명에서 더 나아질 부분을 다시 고칩니다. 이 반복이 PETSRO가 제품을 만들어가는 방식입니다.",
+      storyJourneyTitle: "간식에서 시작한 질문은,<br>매일의 식사로 이어졌습니다.",
+      storyJourneyIntro: "PETSRO의 제품은 하나의 정답보다, 다음 질문을 찾아가는 과정 속에서 조금씩 넓어지고 있습니다.",
+      storyJourney1Title: "간식을 만들며 시작했습니다.",
+      storyJourney1Body: "작은 간식 하나도 원료를 고르고 만드는 과정에 따라 달라진다는 것을 배워갔습니다.",
+      storyJourney2Title: "질문이 식사로 넓어졌습니다.",
+      storyJourney2Body: "간식에서 시작한 고민은 매일 먹는 식사에 어떤 새로운 선택을 더할 수 있을지로 이어졌습니다.",
+      storyJourney3Title: "새로운 식사 토퍼를 만들었습니다.",
+      storyJourney3Body: "국내산 야채를 활용한 Veggie Topper를 개발하며 PETSRO가 제안하는 식사 경험을 구체적인 제품으로 만들었습니다.",
+      storyJourney4Title: "보호자를 직접 만났습니다.",
+      storyJourney4Body: "제품을 시장에 소개하고 질문과 반응을 들으며, 더 잘 설명해야 할 것과 더 다듬어야 할 것을 배웠습니다.",
+      storyJourney5Title: "다음 제품을 계속 고민합니다.",
+      storyJourney5Body: "한 제품에 머물지 않고 새로운 원료와 더 나은 사용 경험을 살피며 PETSRO의 다음을 준비하고 있습니다.",
+      storyMethodTitle: "작은 관찰을,<br>실제 제품의 변화로.",
+      storyMethod1Title: "가까이에서 살핍니다.",
+      storyMethod1Body: "함께 생활하며 식사와 일상 속 작은 불편, 새로운 필요를 놓치지 않으려 합니다.",
+      storyMethod2Title: "생각을 제품으로 만듭니다.",
+      storyMethod2Body: "좋은 아이디어에 머물지 않고 원료, 형태, 사용 방법을 실제 제품으로 만들어봅니다.",
+      storyMethod3Title: "반응을 듣고 다시 다듬습니다.",
+      storyMethod3Body: "직접 보고 들은 반응을 다음 제품과 커뮤니케이션에 반영하며 기준을 조금씩 높여갑니다.",
+      storyNextTitle: "다음 한 끼도,<br>계속 고민하겠습니다.",
+      storyNextBody: "PETSRO는 Vegetable Meal Topper 라인을 넓히고, 다양한 식물성 식재료와 일상 식사를 위한 새로운 반려동물 식품을 계속 탐색하고 있습니다. 한국에서 시작한 작은 질문을 더 많은 보호자와 새로운 시장으로 이어가고자 합니다.",
+      storyNext1: "Vegetable Meal Topper 라인 확대",
+      storyNext2: "다양한 식물성 식재료 탐색",
+      storyNext3: "일상 식사를 위한 새로운 제품 개발",
+      storyNext4: "국내외 파트너와의 새로운 접점 확대",
+      storyClosingTitle: "함께하는 매일이,<br>PETSRO의 다음을 만듭니다.",
+      storyClosingBody: "반려동물 곁에서 시작한 질문을 잊지 않고, 먹는 즐거움과 건강을 함께 생각하는 제품을 한 걸음씩 만들어가겠습니다.",
+      storyClosingSlogan: "먹는 즐거움과 건강을 함께 담다.",
+      storyCtaTitle: "PETSRO를 조금 더<br>알아보세요.",
+      storyCtaFood: "우리의 음식 이야기",
+      storyCtaProducts: "제품 만나보기",
+      storyCtaBusiness: "비즈니스 문의",
+
       footerSlogan: "먹는 즐거움과 건강을 함께 담다.",
       footerCompany: "회사",
       footerCompanyName: "루비트리 / RUBYTREE",
@@ -255,6 +298,49 @@
       foodCtaShop: "Shop Now",
       foodCtaBusiness: "Business Inquiry ↗",
 
+
+      storyHeroTitle: "The time we share shaped<br>the standards behind what we make.",
+      storyHeroBody: "Feeding them every day, watching what they enjoy,<br>and thinking a little harder about what goes into the bowl.<br>PETSRO began in those ordinary moments of living together.",
+      storyOriginTitle: "The more we cared about how they ate,<br>the more we cared about what they ate.",
+      storyOriginBody1: "Filling the bowl, choosing treats and noticing small changes at mealtime are ordinary parts of living with pets.",
+      storyOriginBody2: "Over time, those everyday moments changed our standards. Enjoying food still mattered, but so did knowing what we were choosing. That question became the starting point for PETSRO.",
+      storyOriginQuote: "It began with small questions from everyday life, not a grand idea.",
+      storyThinkingTitle: "Make. Observe. Listen.<br>Refine.",
+      storyThinkingIntro: "We do not expect a good product to be finished in a single idea.",
+      storyThinkingBody: "We ask what could be useful, turn the idea into a real product, observe how it fits into everyday dog mealtimes, and listen to the questions pet parents ask. Then we refine the product and the way we explain it. That cycle is how PETSRO keeps moving forward.",
+      storyJourneyTitle: "A question that began with treats<br>grew into everyday mealtimes.",
+      storyJourneyIntro: "PETSRO grows by following the next useful question rather than treating any one product as the final answer.",
+      storyJourney1Title: "We started by making treats.",
+      storyJourney1Body: "We learned that even a small treat changes with the ingredients we choose and the way we prepare it.",
+      storyJourney2Title: "The question grew beyond treats.",
+      storyJourney2Body: "Our focus expanded toward everyday meals and what new choices could be added to them.",
+      storyJourney3Title: "We developed a new kind of meal topper.",
+      storyJourney3Body: "PETSRO turned Korean-grown vegetables into Veggie Toppers and began shaping a more distinctive approach to everyday mealtime variety.",
+      storyJourney4Title: "We met pet parents in person.",
+      storyJourney4Body: "Bringing our products into the market gave us direct questions, reactions and clearer ideas about what to explain and what to improve.",
+      storyJourney5Title: "We keep working on what comes next.",
+      storyJourney5Body: "New ingredients, better usability and the next product idea keep the PETSRO story moving.",
+      storyMethodTitle: "Small observations.<br>Real product improvements.",
+      storyMethod1Title: "We observe closely.",
+      storyMethod1Body: "Living with pets keeps us close to the small frictions and changing needs around everyday meals.",
+      storyMethod2Title: "We turn ideas into products.",
+      storyMethod2Body: "We move beyond concepts and test ingredients, formats and ways of using them in real products.",
+      storyMethod3Title: "We listen and refine.",
+      storyMethod3Body: "What we see and hear becomes input for the next version of the product and the way we communicate it.",
+      storyNextTitle: "We are still thinking about<br>the next bowl.",
+      storyNextBody: "PETSRO is expanding its Vegetable Meal Topper line, exploring more plant-based ingredients and developing new ideas for everyday pet food. We want to carry a question that began in Korea to more pet parents and new markets.",
+      storyNext1: "Expand the Vegetable Meal Topper line",
+      storyNext2: "Explore a wider range of plant-based ingredients",
+      storyNext3: "Develop new products for everyday mealtimes",
+      storyNext4: "Build new connections with partners in Korea and abroad",
+      storyClosingTitle: "Every day together<br>shapes what PETSRO makes next.",
+      storyClosingBody: "We will keep the questions that began beside our pets close to us as we make products that consider both the joy of eating and thoughtful everyday choices.",
+      storyClosingSlogan: "More joy in eating. More care in every choice.",
+      storyCtaTitle: "Discover more<br>about PETSRO.",
+      storyCtaFood: "How we think about food",
+      storyCtaProducts: "Explore our products",
+      storyCtaBusiness: "Business inquiry",
+
       footerSlogan: "More joy and thoughtful choices for everyday mealtimes.",
       footerCompany: "Company",
       footerCompanyName: "RUBYTREE",
@@ -291,11 +377,30 @@
         ogTitle: "PETSRO Our Food | Good Ingredients, Thoughtfully Prepared",
         ogDescription: "Good ingredients, thoughtful preparation and an easier way to bring vegetables into everyday mealtimes."
       }
+    },
+    ourStory: {
+      ko: {
+        title: "PETSRO Our Story | 함께하는 시간에서 시작된 반려동물 식품 브랜드",
+        description: "PETSRO는 반려동물과 함께하는 일상에서 시작해, 직접 만들고 살피고 듣고 다시 다듬으며 성장하는 한국의 반려동물 식품 브랜드입니다.",
+        ogTitle: "PETSRO Our Story | 함께한 시간이 우리의 기준이 되었습니다",
+        ogDescription: "반려동물과 함께하는 일상에서 시작해, 제품을 직접 고민하고 만들고 개선하며 성장하는 PETSRO의 이야기."
+      },
+      en: {
+        title: "PETSRO Our Story | A Korean Pet Food Brand Shaped by Everyday Life with Pets",
+        description: "PETSRO is a Korean pet food brand shaped by everyday life with pets, hands-on product development and continuous refinement.",
+        ogTitle: "PETSRO Our Story | Shaped by Everyday Life with Pets",
+        ogDescription: "Everyday life with pets shaped the questions, products and standards behind PETSRO."
+      }
     }
   };
 
   const root = document.documentElement;
-  const pageKey = document.body.classList.contains("our-food-page") ? "ourFood" : "home";
+  const pageKey =
+    document.body.classList.contains("our-food-page")
+      ? "ourFood"
+      : document.body.classList.contains("story-page")
+        ? "ourStory"
+        : "home";
   const langButtons = Array.from(document.querySelectorAll(".home-lang-btn"));
   const menuToggle = document.querySelector(".home-menu-toggle");
   const mobileNav = document.querySelector(".home-mobile-nav");
