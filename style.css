@@ -3612,3 +3612,29 @@ footer{
   .our-food-hero h1,.story-hero h1,.biz2-hero h1{font-size:38px}
   .home-discover-heading h2{font-size:31px}
 }
+
+/* =========================================================
+   PETSRO STORY / FOOD KOREAN COPY REWRITE
+   Mobile line breaks for longer, natural Korean sentences
+   ========================================================= */
+@media (max-width:700px){
+  .story-hero h1{max-width:12.8em;font-size:clamp(35px,9.3vw,43px)}
+  .story-origin h2,
+  .story-thinking-heading h2,
+  .story-section-heading h2,
+  .story-next h2{max-width:12.8em}
+
+  .our-food-hero h1{max-width:11.8em}
+  .our-food-care-copy h2,
+  .our-food-ingredients-copy h2,
+  .our-food-single-copy h2,
+  .our-food-made h2,
+  .our-food-everyday h2{max-width:12.5em}
+}
+@media (max-width:430px){
+  .story-hero h1{font-size:36px}
+  .story-origin h2,
+  .story-thinking-heading h2,
+  .story-section-heading h2,
+  .story-next h2{font-size:33px}
+}
