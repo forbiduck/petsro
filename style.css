@@ -3358,3 +3358,160 @@ footer{
     animation:none !important;
   }
 }
+
+/* =========================================================
+   PETSRO FINAL POLISH
+   Less copy, clearer page roles, mobile-first refinement
+   ========================================================= */
+
+.home-why-intro{
+  max-width:680px;
+  margin:18px 0 0;
+  color:var(--petsro-muted);
+  font-size:15px;
+  line-height:1.85;
+}
+.home-why-more{
+  margin-top:30px;
+  text-align:right;
+}
+.home-why-more a{
+  display:inline-flex;
+  gap:8px;
+  align-items:center;
+  color:var(--petsro-deep-teal);
+  font-size:13px;
+  font-weight:750;
+  border-bottom:1px solid rgba(35,111,107,.28);
+  padding-bottom:3px;
+}
+.home-feature-grid-final .home-feature{min-height:235px}
+.home-business-final .home-business-inner{align-items:center}
+.home-business-final .home-business-actions{justify-content:flex-end}
+
+.our-food-everyday-flow{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  gap:18px;
+  flex-wrap:wrap;
+  padding-top:8px;
+}
+.our-food-everyday-flow span{
+  display:inline-flex;
+  align-items:center;
+  min-height:46px;
+  padding:0 18px;
+  border:1px solid rgba(63,51,43,.15);
+  border-radius:999px;
+  background:rgba(255,255,255,.58);
+  color:var(--petsro-dark);
+  font-size:13px;
+  font-weight:750;
+}
+.our-food-everyday-flow b{color:var(--petsro-teal);font-weight:600}
+.our-food-closing .our-food-philosophy-inner{padding-bottom:8px}
+.our-food-philosophy-actions{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:34px;
+}
+
+.story-next-final{padding-top:clamp(90px,8vw,132px) !important}
+.story-next-slogan{
+  display:block;
+  margin-top:32px;
+  padding-top:24px;
+  border-top:1px solid rgba(255,255,255,.22);
+  color:#fff;
+  font-size:18px;
+  line-height:1.55;
+  font-weight:700;
+}
+
+.biz2-store-final .biz2-strength-list-final{margin-top:46px}
+.biz2-strength-list-final{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  border-top:1px solid var(--petsro-border);
+}
+.biz2-strength-list-final article{
+  grid-template-columns:42px 1fr;
+  padding:28px 24px 30px 0;
+  border-bottom:1px solid var(--petsro-border);
+}
+.biz2-collab-grid-final{grid-template-columns:repeat(3,1fr)}
+.biz2-collab-grid-final article{min-height:250px}
+.biz2-contact{border-top:1px solid rgba(63,51,43,.08)}
+
+@media (max-width:700px){
+  .home-section,.our-food-section,.story-section,.biz2-section{
+    padding:64px 0 !important;
+  }
+  .home-hero-content,.our-food-hero-content,.story-hero-content,.biz2-hero-content{
+    padding-top:48px;
+    padding-bottom:32px;
+  }
+  .home-hero h1,.our-food-hero h1,.story-hero h1,.biz2-hero h1{
+    font-size:clamp(38px,10.6vw,49px);
+    line-height:1.07;
+    letter-spacing:-.055em;
+  }
+  .home-hero-copy,.our-food-hero-copy,.story-hero-copy,.biz2-hero-copy{
+    max-width:34em;
+    font-size:14.5px;
+    line-height:1.78;
+  }
+  .home-hero-media img{object-position:72% center}
+  .our-food-hero-media img{object-position:72% center}
+  .story-hero-media img{object-position:67% center}
+  .biz2-hero-media img{object-position:48% center}
+  .home-hero-media,.our-food-hero-media,.story-hero-media,.biz2-hero-media{
+    height:min(82vw,440px);
+  }
+
+  .home-feature-grid-final{grid-template-columns:1fr 1fr;gap:0}
+  .home-feature-grid-final .home-feature{min-height:180px;padding:24px 16px 25px 0}
+  .home-feature-grid-final .home-feature:nth-child(even){padding-left:16px;padding-right:0}
+  .home-feature-grid-final .home-feature h3{font-size:17px}
+  .home-feature-grid-final .home-feature p{font-size:10px;line-height:1.45}
+  .home-why-more{margin-top:22px;text-align:left}
+  .home-business-final .home-business-inner{gap:24px}
+  .home-business-final .home-business-actions{justify-content:flex-start}
+
+  .our-food-everyday-grid{gap:28px}
+  .our-food-everyday-flow{gap:9px}
+  .our-food-everyday-flow span{min-height:42px;padding:0 14px;font-size:12px}
+  .our-food-philosophy-actions{margin-top:28px;align-items:flex-start}
+
+  .story-next-slogan{margin-top:26px;font-size:16px}
+
+  .biz2-store-heading{margin-bottom:30px}
+  .biz2-store-final .biz2-strength-list-final{margin-top:34px}
+  .biz2-strength-list-final{grid-template-columns:1fr}
+  .biz2-strength-list-final article{
+    grid-template-columns:38px 1fr;
+    min-height:0;
+    padding:24px 0 25px;
+  }
+  .biz2-collab-grid-final{grid-template-columns:1fr}
+  .biz2-collab-grid-final article{min-height:0;padding:26px 22px 29px}
+  .biz2-collab-grid-final h3{margin-top:28px}
+  .biz2-contact-grid{gap:34px}
+}
+
+@media (max-width:430px){
+  .home-hero h1,.our-food-hero h1,.story-hero h1,.biz2-hero h1{
+    font-size:clamp(36px,10.8vw,44px);
+  }
+  .home-feature-grid-final{grid-template-columns:1fr}
+  .home-feature-grid-final .home-feature,
+  .home-feature-grid-final .home-feature:nth-child(even){
+    min-height:0;
+    padding:22px 0 23px;
+  }
+  .our-food-everyday-flow{align-items:flex-start}
+  .our-food-everyday-flow b{align-self:center}
+}
