@@ -73,6 +73,9 @@
       foodProcess3: "저온 열풍 건조",
       foodProcess4: "고온 열처리",
       foodProcess5: "토퍼 형태로 마무리",
+      foodPatentLabel: "PATENT PENDING",
+      foodPatentTitle: "PETSRO 야채 토퍼 제조방법 특허출원 중",
+      foodPatentNumber: "대한민국 특허출원 제10-2025-0161849호",
       foodTextureTitle: "야채의 색과 식감이 자연스럽게 남도록.",
       foodTextureBody: "야채의 모양이 조금씩 남아 있어 어떤 야채인지 눈으로도 알 수 있습니다. 두 가지 이상을 함께 더하면 각각의 색과 식감도 자연스럽게 어우러집니다.",
 
@@ -222,6 +225,9 @@
       foodProcess3: "Low-Temperature Hot-Air Drying",
       foodProcess4: "Heat Treatment",
       foodProcess5: "Topper Finish",
+      foodPatentLabel: "PATENT PENDING",
+      foodPatentTitle: "PETSRO Veggie Topper Manufacturing Method — Patent Pending",
+      foodPatentNumber: "Korean Patent Application No. 10-2025-0161849",
       foodTextureTitle: "Keeping the vegetable’s color and texture.",
       foodTextureBody: "Small pieces of the vegetable remain visible, so you can still tell what is in the bowl. Mix two or more varieties and their colors and textures come together naturally.",
 
