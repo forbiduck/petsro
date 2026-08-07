@@ -1918,25 +1918,6 @@ footer{
   line-height:1.85;
 }
 
-.our-food-patent-compact{
-  margin-top:42px;
-  padding-top:18px;
-  border-top:1px solid rgba(63,51,43,.14);
-  display:flex;
-  justify-content:space-between;
-  gap:22px;
-  color:#776F67;
-}
-
-.our-food-patent-compact span{
-  font-size:12px;
-  font-weight:680;
-}
-
-.our-food-patent-compact small{
-  font-size:11px;
-}
-
 /* EVERYDAY */
 .our-food-everyday{background:#fff}
 
@@ -3637,4 +3618,43 @@ footer{
   .story-thinking-heading h2,
   .story-section-heading h2,
   .story-next h2{font-size:33px}
+}
+
+/* =========================================================
+   PETSRO FINAL NATURAL-KOREAN CLEANUP
+   ========================================================= */
+
+.story-journey-media{
+  width:min(1480px,calc(100% - 48px));
+  margin:0 auto 58px;
+  overflow:hidden;
+  border-radius:34px;
+  background:#EDE5DA;
+  box-shadow:var(--petsro-shadow);
+}
+.story-journey-media img{
+  width:100%;
+  aspect-ratio:1672/941;
+  object-fit:cover;
+  object-position:center center;
+}
+
+@media (max-width:700px){
+  .story-journey-media{
+    width:calc(100% - 32px);
+    margin-bottom:38px;
+    border-radius:22px;
+  }
+  .story-journey-media img{
+    aspect-ratio:4/3;
+    object-position:52% center;
+  }
+
+  /* Reduced copy should also reduce dead vertical space. */
+  .story-origin.story-section,
+  .story-journey.story-section,
+  .story-next.story-section{
+    padding-top:68px !important;
+    padding-bottom:68px !important;
+  }
 }
