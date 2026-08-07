@@ -1,125 +1,445 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PETSRO | Our Food</title>
-  <meta name="description" content="PETSRO 반려견 야채 토퍼 브랜드 홈페이지" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PETSRO Our Food | 야채 토퍼를 만드는 PETSRO의 식사 원칙</title>
+  <meta
+    name="description"
+    content="PETSRO가 생각하는 반려견 토퍼의 역할과 국내산 야채 원료, 증숙·저온 열풍 건조, 작은 입자형 제형의 제조 원칙을 소개합니다."
+  >
+  <link rel="canonical" href="https://petsro.com/our-food.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://petsro.com/our-food.html">
+  <meta property="og:title" content="PETSRO Our Food | Our Vegetable Meal Topper Principles">
+  <meta
+    property="og:description"
+    content="PETSRO가 생각하는 토퍼의 역할과 국내산 야채 원료, 제조 방식과 작은 입자형 제형을 소개합니다."
+  >
+  <meta property="og:image" content="https://petsro.com/assets/our-food-hero.webp">
+  <meta property="og:site_name" content="PETSRO">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PETSRO Our Food">
+  <meta
+    name="twitter:description"
+    content="Our approach to Vegetable Meal Toppers made with Korean-grown vegetables."
+  >
+  <meta name="twitter:image" content="https://petsro.com/assets/our-food-hero.webp">
+
+  <meta name="theme-color" content="#F6F1E7">
+
+  <link
+    rel="preload"
+    as="image"
+    href="assets/our-food-hero.webp"
+    type="image/webp"
+    fetchpriority="high"
+  >
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<header>
-  <div class="wrap nav">
-    <a class="logo" href="index.html"><span class="logo-mark">P</span><span>PETSRO</span></a>
-    <nav class="menu" aria-label="주요 메뉴">
-      <a href="index.html#products">제품</a>
-      <a href="our-food.html">Our Food</a>
-      <a href="our-story.html">Our Story</a>
-      <a href="business.html">Contact</a>
-    </nav>
-    <a class="nav-cta" href="business.html">Contact</a>
-  </div>
-</header>
+<body class="our-food-page">
+  <a class="home-skip-link" href="#main-content" data-i18n="skip">본문 바로가기</a>
 
+  <!-- HEADER -->
+  <header class="home-site-header" id="top">
+    <div class="home-header-inner">
+      <a class="home-brand" href="index.html" aria-label="PETSRO home">
+        <img
+          src="assets/petsro-logo.png"
+          alt="PETSRO"
+          width="1200"
+          height="243"
+        >
+      </a>
 
+      <nav class="home-desktop-nav" aria-label="주요 메뉴" data-i18n-aria="mainNav">
+        <a href="index.html#products" data-i18n="navProducts">PRODUCTS</a>
+        <a href="our-food.html" class="is-current" aria-current="page" data-i18n="navFood">OUR FOOD</a>
+        <a href="our-story.html" data-i18n="navStory">OUR STORY</a>
+        <a href="business.html" data-i18n="navBusiness">BUSINESS</a>
+      </nav>
 
-<main>
-  <section class="page-hero">
-    <div class="wrap">
-      <div class="label">Our Food</div>
-      <h1>What is good food for everyday pets?</h1>
-      <p>매일 같은 사료도 조금 더 기다려지는 시간이 될 수 있습니다. PETSRO는 평소 먹는 사료 위에 간편하게 더할 수 있는 야채 토퍼로, 반려견의 한 끼에 작은 즐거움을 더합니다.</p>
+      <div class="home-header-actions">
+        <div class="home-lang-switch" aria-label="Language">
+          <button type="button" class="home-lang-btn is-active" data-lang="ko" aria-pressed="true">KR</button>
+          <span aria-hidden="true">|</span>
+          <button type="button" class="home-lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+
+        <a
+          class="home-buy-pill"
+          href="https://smartstore.naver.com/petsro"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="navBuy"
+        >BUY</a>
+
+        <button
+          type="button"
+          class="home-menu-toggle"
+          aria-controls="home-mobile-nav"
+          aria-expanded="false"
+          aria-label="메뉴 열기"
+          data-i18n-aria="menuOpen"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
-  </section>
 
-  <section class="food-principles" id="principles">
-    <div class="wrap">
-      <div class="principle">
-        <div class="big-word">PROPER<br>TOPPER</div>
+    <div class="home-mobile-nav" id="home-mobile-nav" hidden>
+      <nav aria-label="모바일 주요 메뉴" data-i18n-aria="mobileNav">
+        <a href="index.html#products" data-i18n="navProducts">PRODUCTS</a>
+        <a href="our-food.html" class="is-current" aria-current="page" data-i18n="navFood">OUR FOOD</a>
+        <a href="our-story.html" data-i18n="navStory">OUR STORY</a>
+        <a href="business.html" data-i18n="navBusiness">BUSINESS</a>
+        <a
+          class="home-mobile-buy"
+          href="https://smartstore.naver.com/petsro"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="shopNow"
+        >구매하기</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- OUR FOOD HERO -->
+    <section class="our-food-hero" aria-labelledby="our-food-hero-title">
+      <div class="our-food-hero-media">
+        <img
+          src="assets/our-food-hero.webp"
+          alt="고구마, 당근, 단호박 원물과 PETSRO 야채 토퍼"
+          data-alt-ko="고구마, 당근, 단호박 원물과 PETSRO 야채 토퍼"
+          data-alt-en="Sweet potato, carrot and kabocha ingredients with PETSRO vegetable toppers"
+          width="1832"
+          height="859"
+          fetchpriority="high"
+          decoding="async"
+        >
+      </div>
+
+      <div class="our-food-shell our-food-hero-content">
+        <p class="our-food-label">OUR FOOD</p>
+        <h1 id="our-food-hero-title" data-i18n-html="foodHeroTitle">
+          좋은 토퍼는<br>주식을 대신하지 않습니다.
+        </h1>
+        <p class="our-food-hero-copy" data-i18n-html="foodHeroBody">
+          평소 먹는 사료는 그대로.<br>
+          PETSRO는 실제 야채 식재료와 맛·향·식감의 변화를<br>
+          매일의 식사에 간편하게 더하는 방법을 고민합니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- THE ROLE OF A TOPPER -->
+    <section class="our-food-role our-food-section" aria-labelledby="food-role-title">
+      <div class="our-food-shell our-food-role-grid">
         <div>
-          <p>좋은 토퍼는 과하게 복잡할 필요가 없습니다. 매일 먹는 사료 위에 부담 없이 뿌릴 수 있고, 보호자가 이해하기 쉬운 원료로 만들어져야 합니다. PETSRO는 반려견의 식사 시간을 더 맛있고 즐겁게 만들어주는 토퍼를 지향합니다.</p>
-          <div class="pill-list"><span class="pill">사료 위 토핑</span><span class="pill">데일리 급여</span><span class="pill">간편 사용</span></div>
+          <p class="our-food-label">THE ROLE OF A TOPPER</p>
+          <h2 id="food-role-title" data-i18n-html="foodRoleTitle">
+            사료의 부족함을 채우는 것이 아니라,<br>
+            한 끼의 선택지를 넓히는 것.
+          </h2>
+        </div>
+
+        <div class="our-food-role-copy">
+          <p data-i18n="foodRoleBody1">
+            영양적으로 완전하고 균형 잡힌 사료를 정상적으로 먹고 있다면 토퍼가 주식을 대신할 필요는 없습니다.
+          </p>
+          <p data-i18n="foodRoleBody2">
+            PETSRO가 생각하는 토퍼는 평소 식사를 유지하면서 원하는 식재료와 새로운 맛·향·식감을 소량 더할 수 있는 하나의 식사 방식입니다.
+          </p>
+          <p data-i18n="foodRoleBody3">
+            야채를 직접 세척하고 손질하고 익혀 보관하는 과정 없이, 필요한 만큼 사료 위에 더할 수 있도록 만들었습니다.
+          </p>
+          <blockquote>KEEP THE MAIN MEAL.<br>ADD SOMETHING DIFFERENT.</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- FROM CARE TO EVERYDAY FOOD -->
+    <section class="our-food-care our-food-section" aria-labelledby="food-care-title">
+      <div class="our-food-care-visual">
+        <img
+          src="assets/our-food-care.webp"
+          alt="가정에서 보호자가 신선한 야채를 손질하고 옆에서 비숑프리제가 기다리는 모습"
+          data-alt-ko="가정에서 보호자가 신선한 야채를 손질하고 옆에서 비숑프리제가 기다리는 모습"
+          data-alt-en="Pet owner preparing fresh vegetables at home while a Bichon Frise waits nearby"
+          width="1586"
+          height="992"
+          loading="lazy"
+          decoding="async"
+        >
+
+        <div class="our-food-care-copy">
+          <p class="our-food-label">FROM CARE TO EVERYDAY FOOD</p>
+          <h2 id="food-care-title" data-i18n-html="foodCareTitle">
+            좋은 식재료를<br>직접 챙겨주고 싶은 마음.
+          </h2>
+          <p data-i18n="foodCareBody">
+            반려견의 건강을 생각해 신선한 야채를 고르고, 씻고, 손질하고, 익히는 일에는 보호자의 정성이 들어갑니다. 하지만 매일 같은 과정을 반복하기는 쉽지 않습니다.
+          </p>
+          <strong data-i18n="foodCareBridge">
+            PETSRO는 그 정성을 매일 더 간편하게 이어갈 방법을 고민했습니다.
+          </strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR FOOD PRINCIPLES -->
+    <section class="our-food-principles our-food-section" id="principles" aria-labelledby="food-principles-title">
+      <div class="our-food-shell">
+        <div class="our-food-heading">
+          <p class="our-food-label">OUR FOOD PRINCIPLES</p>
+          <h2 id="food-principles-title" data-i18n="foodPrinciplesTitle">우리가 토퍼를 만드는 네 가지 원칙</h2>
+        </div>
+
+        <div class="our-food-principle-grid">
+          <article class="our-food-principle">
+            <span>01</span>
+            <p class="our-food-principle-en">KEEP THE MAIN MEAL</p>
+            <h3 data-i18n="foodPrinciple1Title">주식은 그대로</h3>
+            <p data-i18n="foodPrinciple1Body">
+              PETSRO 토퍼는 주식을 대신하기 위한 제품이 아닙니다. 평소 먹는 사료를 유지하면서 식사에 작은 변화를 더합니다.
+            </p>
+          </article>
+
+          <article class="our-food-principle">
+            <span>02</span>
+            <p class="our-food-principle-en">START WITH REAL INGREDIENTS</p>
+            <h3 data-i18n="foodPrinciple2Title">이해할 수 있는 실제 식재료에서 시작</h3>
+            <p data-i18n="foodPrinciple2Body">
+              고구마·당근·단호박처럼 보호자가 눈으로 알고 선택할 수 있는 국내산 야채 원료를 사용합니다.
+            </p>
+          </article>
+
+          <article class="our-food-principle">
+            <span>03</span>
+            <p class="our-food-principle-en">RESPECT THE INGREDIENT</p>
+            <h3 data-i18n="foodPrinciple3Title">원료마다 필요한 과정을 고민</h3>
+            <p data-i18n="foodPrinciple3Body">
+              야채를 선별하고 증숙한 뒤 저온 열풍 건조와 고온 열처리 과정을 거쳐 일상 급여에 적합한 형태로 가공합니다.
+            </p>
+          </article>
+
+          <article class="our-food-principle">
+            <span>04</span>
+            <p class="our-food-principle-en">MAKE IT VISIBLE &amp; EASY</p>
+            <h3 data-i18n="foodPrinciple4Title">보이고, 뿌리기 쉽게</h3>
+            <p data-i18n="foodPrinciple4Body">
+              완전히 고운 파우더가 아니라 크기가 다른 작은 입자가 자연스럽게 섞인 형태로 만들어, 실제 야채 원료의 존재감을 확인하면서 사료 위에는 간편하게 더할 수 있도록 합니다.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SINGLE VEGETABLE -->
+    <section class="our-food-single our-food-section" aria-labelledby="food-single-title">
+      <div class="our-food-shell">
+        <div class="our-food-single-grid">
+          <div class="our-food-single-copy">
+            <p class="our-food-label">SINGLE VEGETABLE</p>
+            <h2 id="food-single-title" data-i18n-html="foodSingleTitle">
+              섞기보다,<br>원하는 야채를 선택할 수 있도록.
+            </h2>
+            <p data-i18n="foodSingleBody">
+              PETSRO Veggie Topper는 여러 야채를 하나로 혼합한 제품이 아니라 고구마·당근·단호박을 각각 선택할 수 있는 구조입니다. 보호자는 원하는 식재료를 직접 선택할 수 있고, 제품마다 어떤 야채가 들어있는지도 명확하게 확인할 수 있습니다.
+            </p>
+          </div>
+
+          <div class="our-food-varieties" aria-label="PETSRO vegetable topper varieties">
+            <article>
+              <span class="our-food-variety-index">01</span>
+              <div class="our-food-variety-rule is-sweet-potato"></div>
+              <h3>Sweet Potato</h3>
+              <p data-i18n="foodCurrent">현재 제품</p>
+            </article>
+            <article>
+              <span class="our-food-variety-index">02</span>
+              <div class="our-food-variety-rule is-carrot"></div>
+              <h3>Carrot</h3>
+              <p data-i18n="foodCurrent">현재 제품</p>
+            </article>
+            <article>
+              <span class="our-food-variety-index">03</span>
+              <div class="our-food-variety-rule is-kabocha"></div>
+              <h3>Kabocha</h3>
+              <p data-i18n="foodCurrent">현재 제품</p>
+            </article>
+            <article class="is-upcoming">
+              <div class="our-food-variety-top">
+                <span class="our-food-variety-index">04</span>
+                <small data-i18n="foodUpcoming">출시 예정</small>
+              </div>
+              <div class="our-food-variety-rule is-broccoli"></div>
+              <h3>Broccoli</h3>
+              <p data-i18n="foodUpcomingVariety">Upcoming Variety</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="our-food-product-meta">
+          <span>50g × 2 Containers</span>
+          <span>Net Weight 100g</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS & TEXTURE -->
+    <section class="our-food-process our-food-section" aria-labelledby="food-process-title">
+      <div class="our-food-shell">
+        <div class="our-food-process-top">
+          <div>
+            <p class="our-food-label">MADE WITH A PURPOSE</p>
+            <h2 id="food-process-title" data-i18n-html="foodProcessTitle">
+              작은 입자 하나에도<br>만드는 이유가 있습니다.
+            </h2>
+          </div>
+          <p data-i18n="foodProcessBody">
+            국내산 야채를 선별하고 각 원료에 맞는 과정을 거쳐, 일반적인 고운 야채 파우더가 아니라 사료 위에 뿌리기 쉽고 야채 원료의 모습을 확인할 수 있는 작은 입자형 제형을 목표로 합니다.
+          </p>
+        </div>
+
+        <ol class="our-food-process-list">
+          <li>
+            <span>01</span>
+            <strong data-i18n="foodProcess1">원료 선별</strong>
+            <small>Ingredient Selection</small>
+          </li>
+          <li>
+            <span>02</span>
+            <strong data-i18n="foodProcess2">증숙</strong>
+            <small>Steaming</small>
+          </li>
+          <li>
+            <span>03</span>
+            <strong data-i18n="foodProcess3">저온 열풍 건조</strong>
+            <small>Low-Temperature Hot-Air Drying</small>
+          </li>
+          <li>
+            <span>04</span>
+            <strong data-i18n="foodProcess4">고온 열처리</strong>
+            <small>Heat Treatment</small>
+          </li>
+          <li>
+            <span>05</span>
+            <strong data-i18n="foodProcess5">작은 입자화</strong>
+            <small>Small-Particle Processing</small>
+          </li>
+        </ol>
+
+        <div class="our-food-patent">
+          <div>
+            <span>PATENT PENDING IN KOREA</span>
+            <strong data-i18n="foodPatentTitle">제품 관련 야채 토퍼 제조방법 특허출원 중</strong>
+          </div>
+          <p data-i18n="foodPatentNumber">대한민국 특허출원 제10-2025-0161849호</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVERYDAY FOOD -->
+    <section class="our-food-everyday our-food-section" aria-labelledby="food-everyday-title">
+      <div class="our-food-shell our-food-everyday-grid">
+        <div>
+          <p class="our-food-label">EVERYDAY FOOD</p>
+          <h2 id="food-everyday-title" data-i18n-html="foodEverydayTitle">
+            매일 더하는 제품이라서,<br>간단해야 합니다.
+          </h2>
+          <p data-i18n="foodEverydayBody">
+            PETSRO의 역할은 복잡한 식단을 새로 만드는 것이 아니라, 일상의 한 끼에 새로운 식재료와 식사 경험을 간편하게 더하는 것입니다.
+          </p>
+        </div>
+
+        <div class="our-food-simple-steps">
+          <article>
+            <span>01</span>
+            <strong data-i18n="foodStep1">열고</strong>
+            <p data-i18n="foodStep1Body">필요할 때 용기를 엽니다.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <strong data-i18n="foodStep2">덜고</strong>
+            <p data-i18n="foodStep2Body">필요한 만큼 소량 덜어냅니다.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <strong data-i18n="foodStep3">더합니다</strong>
+            <p data-i18n="foodStep3Body">평소 사료 위에 간편하게 더합니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="our-food-cta our-food-section" aria-labelledby="food-cta-title">
+      <div class="our-food-shell our-food-cta-inner">
+        <div>
+          <p class="our-food-label our-food-label-light">PETSRO VEGGIE TOPPER</p>
+          <h2 id="food-cta-title" data-i18n="foodCtaTitle">PETSRO Veggie Topper를 만나보세요.</h2>
+        </div>
+
+        <div class="our-food-cta-actions">
+          <a class="home-btn home-btn-light" href="index.html#products" data-i18n="foodCtaProducts">제품 보기</a>
+          <a
+            class="home-btn home-btn-outline-light"
+            href="https://smartstore.naver.com/petsro"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="foodCtaShop"
+          >구매하기</a>
+          <a class="our-food-cta-link" href="business.html" data-i18n="foodCtaBusiness">비즈니스 문의 ↗</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="home-footer">
+    <div class="home-shell">
+      <div class="home-footer-top">
+        <div class="home-footer-brand">
+          <a href="#top" aria-label="PETSRO top">
+            <img src="assets/petsro-logo.png" alt="PETSRO" width="1200" height="243" loading="lazy">
+          </a>
+          <p data-i18n="footerSlogan">먹는 즐거움과 건강을 함께 담다.</p>
+        </div>
+
+        <div class="home-footer-links">
+          <div>
+            <h3 data-i18n="footerCompany">회사</h3>
+            <span data-i18n="footerCompanyName">루비트리 / RUBYTREE</span>
+            <span>PETSRO</span>
+          </div>
+          <div>
+            <h3>CONTACT</h3>
+            <a href="tel:0318692392">031-869-2392</a>
+            <a href="mailto:petsro@naver.com">petsro@naver.com</a>
+          </div>
+          <div>
+            <h3 data-i18n="footerFollow">채널</h3>
+            <a href="https://www.instagram.com/petsro_official/" target="_blank" rel="noopener noreferrer">@petsro_official</a>
+            <a href="https://smartstore.naver.com/petsro" target="_blank" rel="noopener noreferrer">Naver Smart Store</a>
+          </div>
         </div>
       </div>
 
-      <div class="principle">
-        <div class="big-word">WITH<br>VEGGIES</div>
-        <div>
-          <p>고구마, 단호박, 당근, 브로콜리, 양배추처럼 보호자에게도 익숙한 채소를 중심으로 구성합니다. 낯선 원료보다 일상에서 친근하게 받아들일 수 있는 재료로, 반려견의 한 끼에 자연스럽게 어울리는 토퍼를 만듭니다.</p>
-          <div class="pill-list"><span class="pill">고구마</span><span class="pill">단호박</span><span class="pill">당근</span><span class="pill">브로콜리</span><span class="pill">양배추</span></div>
-        </div>
-      </div>
-
-      <div class="principle">
-        <div class="big-word">MADE<br>WITH CARE</div>
-        <div>
-          <p>반려견에게 챙겨주는 음식이기 때문에 원료 손질부터 건조, 포장까지 제품의 흐름을 꼼꼼하게 생각합니다. PETSRO는 보호자가 매일 편하게 꺼내 급여할 수 있는 형태와, 반려견이 맛있게 먹을 수 있는 식감을 함께 고민합니다.</p>
-          <div class="pill-list"><span class="pill">원료 손질</span><span class="pill">증숙</span><span class="pill">저온건조</span><span class="pill">소포장</span></div>
-        </div>
-      </div>
-
-      <div class="principle">
-        <div class="big-word">FOR<br>FAMILY</div>
-        <div>
-          <p>함께 지내는 시간이 쌓일수록, 밥을 챙기는 일도 더 세심해집니다. PETSRO는 특별한 날에만 주는 간식보다, 매일의 식사 시간에 작고 따뜻한 즐거움을 더하는 제품을 만들고 싶습니다.</p>
-          <div class="pill-list"><span class="pill">매일 한 끼</span><span class="pill">식사 즐거움</span><span class="pill">따뜻한 일상</span></div>
-        </div>
-      </div>
-
-      <div class="compare">
-        <div class="compare-card"><div class="icon">🌱</div><h3>익숙한 채소</h3><p>보호자가 이해하기 쉬운 채소 중심 라인업</p></div>
-        <div class="compare-card"><div class="icon">🥣</div><h3>사료 위 토핑</h3><p>매일 먹는 사료에 가볍게 더하는 급여 방식</p></div>
-        <div class="compare-card"><div class="icon">🤲</div><h3>정성스러운 준비</h3><p>원료 손질부터 포장까지 보호자의 마음으로 준비</p></div>
+      <div class="home-footer-bottom">
+        <span>© <span id="home-current-year">2026</span> PETSRO. All rights reserved.</span>
+        <span data-i18n="footerBusiness">Pet Food Manufacturer · Republic of Korea</span>
       </div>
     </div>
-  </section>
-</main>
+  </footer>
 
-
-
-<footer>
-  <div class="wrap">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <b>PETSRO</b>
-        <p>먹는 즐거움과 건강을 함께 담다. PETSRO는 반려견의 일상 식사에 자연스럽게 더하는 야채 토퍼를 제안합니다.</p>
-      </div>
-      <div class="footer-col">
-        <h4>브랜드</h4>
-        <a href="our-story.html">Our Story</a>
-        <a href="index.html#brand">브랜드 가치</a>
-        <a href="business.html">비즈니스 문의</a>
-      </div>
-      <div class="footer-col">
-        <h4>제품</h4>
-        <a href="index.html#products">제품 라인업</a>
-        <a href="our-food.html">Our Food</a>
-        <a href="our-food.html#principles">제품 원칙</a>
-      </div>
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <a href="business.html">문의하기</a>
-        <a href="mailto:hello@petsro.com">hello@petsro.com</a>
-      </div>
-      <div class="footer-col">
-        <h4>소셜/정보</h4>
-        <a href="#">Instagram</a>
-        <a href="#">Smart Store</a>
-        <a href="#">개인정보처리방침</a>
-        <a href="#">이용약관</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div>© PETSRO. All rights reserved.</div>
-      <div class="footer-small">
-        <span>상호명: 루비트리</span>
-        <span>브랜드: PETSRO</span>
-        <a href="mailto:hello@petsro.com">hello@petsro.com</a>
-      </div>
-    </div>
-  </div>
-</footer>
-
+  <script src="script.js" defer></script>
 </body>
 </html>
