@@ -13,14 +13,25 @@
   --sub:#5B7068;
   --white:#fff;
   --shadow:0 18px 45px rgba(51,37,20,.13);
-  --radius:30px;}
+  --radius:30px;
+  --petsro-font:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,system-ui,Roboto,"Helvetica Neue","Segoe UI","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif;}
 
 *{box-sizing:border-box}
+
+body,
+button,
+input,
+textarea,
+select{
+  font-family:var(--petsro-font);
+  font-synthesis:none;
+}
+
 
 html{scroll-behavior:smooth}
 
 body{margin:0;
-  font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-family:var(--petsro-font);
   color:var(--text);
   background:var(--cream);
   word-break:keep-all;}
@@ -68,7 +79,7 @@ section{padding:66px 0}
 .home-page{margin:0;
   background:var(--petsro-soft);
   color:var(--petsro-ink);
-  font-family:Pretendard,"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-family:var(--petsro-font);
   word-break:keep-all;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;}
@@ -737,7 +748,7 @@ section{padding:66px 0}
 .our-food-page{margin:0;
   background:var(--petsro-soft);
   color:var(--petsro-ink);
-  font-family:Pretendard,"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-family:var(--petsro-font);
   word-break:keep-all;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;}
@@ -1089,7 +1100,7 @@ section{padding:66px 0}
 .story-page{margin:0;
   background:var(--petsro-soft);
   color:var(--petsro-ink);
-  font-family:Pretendard,"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-family:var(--petsro-font);
   word-break:keep-all;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;}
@@ -1359,7 +1370,7 @@ section{padding:66px 0}
 .business-page{margin:0;
   background:var(--petsro-soft);
   color:var(--petsro-ink);
-  font-family:Pretendard,"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-family:var(--petsro-font);
   word-break:keep-all;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;}
@@ -1663,8 +1674,12 @@ section{padding:66px 0}
 .biz2-store-media{width:calc(100% - 32px);
     border-radius:22px;}
 
-.biz2-store-media img{aspect-ratio:4/3;
-    object-position:63% center;}
+.biz2-store-media img{display:block;
+    width:100%;
+    height:auto;
+    aspect-ratio:auto;
+    object-fit:contain;
+    object-position:center;}
 
 .biz2-strength-list article{grid-template-columns:44px 1fr;
     gap:14px;
@@ -1748,12 +1763,25 @@ section{padding:66px 0}
 .biz2-hero-content{padding-top:48px;
     padding-bottom:32px;}
 
-.home-hero h1,
-.our-food-hero h1,
-.story-hero h1,
-.biz2-hero h1{font-size:clamp(38px,10.6vw,49px);
-    line-height:1.07;
-    letter-spacing:-.055em;}
+.home-hero h1{
+    font-size:clamp(38px,10.2vw,44px);
+    line-height:1.08;
+    letter-spacing:-.04em;}
+
+.our-food-hero h1{
+    font-size:clamp(35px,9.3vw,41px);
+    line-height:1.09;
+    letter-spacing:-.04em;}
+
+.story-hero h1{
+    font-size:clamp(34px,8.9vw,40px);
+    line-height:1.1;
+    letter-spacing:-.04em;}
+
+.biz2-hero h1{
+    font-size:clamp(35px,9.1vw,41px);
+    line-height:1.09;
+    letter-spacing:-.04em;}
 
 .home-hero-copy,
 .our-food-hero-copy,
@@ -1892,34 +1920,16 @@ section{padding:66px 0}
     border-left:0;}
 
 .home-hero-content{max-width:none}
-
-.home-hero h1{max-width:9.4em}
-
-.our-food-hero h1{max-width:10.8em}
-
-.story-hero h1{max-width:11.5em}
-
-.biz2-hero h1{max-width:10.8em}
 }
 
 @media (max-width:430px){
-.home-hero h1{font-size:40px}
-
-.our-food-hero h1,
-.story-hero h1,
-.biz2-hero h1{font-size:38px}
-
 .home-discover-heading h2{font-size:31px}
 }
 
 @media (max-width:700px){
-.story-hero h1{max-width:12.8em;font-size:clamp(35px,9.3vw,43px)}
-
 .story-origin h2,
 .story-section-heading h2,
 .story-next h2{max-width:12.8em}
-
-.our-food-hero h1{max-width:11.8em}
 
 .our-food-care-copy h2,
 .our-food-single-copy h2,
@@ -1927,8 +1937,6 @@ section{padding:66px 0}
 }
 
 @media (max-width:430px){
-.story-hero h1{font-size:36px}
-
 .story-origin h2,
 .story-section-heading h2,
 .story-next h2{font-size:33px}
@@ -2075,6 +2083,30 @@ section{padding:66px 0}
 }
 
 
+
+@media (max-width:700px){
+  .home-section-heading h2,
+  .home-heading-left h2,
+  .home-lifestyle-copy h2,
+  .our-food-single h2,
+  .our-food-made h2,
+  .our-food-philosophy h2,
+  .our-food-care h2,
+  .story-origin h2,
+  .story-section-heading h2,
+  .story-next h2,
+  .biz2-heading h2,
+  .biz2-store-heading h2,
+  .biz2-contact h2{
+    letter-spacing:-.035em;
+  }
+
+  .our-food-patent-copy span,
+  .biz2-contact-list strong{
+    overflow-wrap:anywhere;
+  }
+}
+
 /* OUR STORY — restored journey image */
 .story-journey-media{
   width:min(1480px,calc(100% - 48px));
@@ -2100,7 +2132,11 @@ section{padding:66px 0}
   }
 
   .story-journey-media img{
-    aspect-ratio:4/3;
-    object-position:52% center;
+    display:block;
+    width:100%;
+    height:auto;
+    aspect-ratio:auto;
+    object-fit:contain;
+    object-position:center;
   }
 }
