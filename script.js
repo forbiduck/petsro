@@ -109,8 +109,8 @@
       storyCtaProducts: "제품 보기",
 
 
-      biz2HeroTitle: "PETSRO가 잘 어울리는 곳을<br>만나고 싶습니다.",
-      biz2HeroBody: "입점·유통, 팝업, 브랜드 협업 등 PETSRO와 함께하고 싶은 제안이 있다면 편하게 연락 주세요.",
+      biz2HeroTitle: "먹는 즐거움과 건강을,<br>더 가까이.",
+      biz2HeroBody: "더 많은 보호자와 반려동물이 PETSRO를 만날 수 있도록 다양한 유통과 협업의 제안을 기다립니다.",
       biz2HeroEmail: "비즈니스 문의",
       biz2HeroExplore: "입점·협업 안내",
 
@@ -261,8 +261,8 @@
       storyCtaProducts: "View products",
 
 
-      biz2HeroTitle: "We would like to meet places<br>where PETSRO feels at home.",
-      biz2HeroBody: "We welcome retail, distribution, pop-up and brand collaboration ideas that feel right for PETSRO.",
+      biz2HeroTitle: "Bringing better mealtimes<br>within easier reach.",
+      biz2HeroBody: "We welcome retail, distribution, online, pop-up, brand collaboration and international partnership opportunities that can help more pet families discover PETSRO.",
       biz2HeroEmail: "Business Inquiry",
       biz2HeroExplore: "Retail & Collaboration",
 
