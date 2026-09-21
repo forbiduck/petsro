@@ -27,7 +27,7 @@
       everydayBody: "늘 먹는 밥에 다른 맛과 향, 식감을 더해보세요.<br>오늘은 고구마, 내일은 당근처럼 한 끼씩 다르게 챙겨줄 수 있습니다.",
 
       productsTitle: "오늘은 어떤 야채를 더할까요?",
-      productsIntro: "고구마·당근·단호박을 각각 담았습니다. 오늘 챙겨주고 싶은 야채를 골라주세요.",
+      productsIntro: "고구마·당근·단호박·브로콜리를 각각 담았습니다. 오늘 챙겨주고 싶은 야채를 골라주세요.",
       sweetPotato: "고구마",
       sweetPotatoDesc: "고구마 특유의 은은한 맛과 향",
       carrot: "당근",
@@ -35,8 +35,11 @@
       kabocha: "단호박",
       kabochaDesc: "단호박 특유의 향과 풍미",
       broccoli: "브로콜리",
-      broccoliDesc: "다음으로 준비 중인 야채 토퍼",
-      comingSoon: "출시 예정",
+      broccoliDesc: "브로콜리 특유의 색과 향",
+      standardSetWeight: "50g × 2 / 총 100g",
+      broccoliSetWeight: "25g × 2 / 총 50g",
+      productSetInfo: "2통 구성 · 고구마·당근·단호박은 각 50g, 브로콜리는 25g",
+      productMixedWeight: "브로콜리 1통과 50g 제품 1통 구성 시 총 75g",
       smartStore: "스마트스토어에서 보기",
 
       whyTitle: "골라주고, 섞어주고, 매일 조금 다르게.",
@@ -47,24 +50,25 @@
 
 
       foodHeroTitle: "좋은 야채를 골라,<br>매일 챙겨주기 쉽게 준비합니다.",
-      foodHeroBody: "PETSRO Veggie Topper는 국내산 고구마·당근·단호박으로 만듭니다.<br>야채마다 상태를 살펴 찌고 천천히 말려,<br>밥 위에 간편하게 더할 수 있도록 준비합니다.",
+      foodHeroBody: "PETSRO Veggie Topper는 국내산 고구마·당근·단호박·브로콜리로 만듭니다.<br>야채마다 상태를 살펴 찌고 천천히 말려,<br>밥 위에 간편하게 더할 수 있도록 준비합니다.",
 
       foodCareTitle: "야채를 챙겨주고 싶어도,<br>매번 직접 준비하기는 쉽지 않으니까.",
-      foodCareBody: "국내산 고구마·당근·단호박을 골라 씻고 손질하고 익힌 뒤 천천히 말려 담았습니다. 필요한 날 용기를 열어 밥 위에 가볍게 뿌려주세요.",
+      foodCareBody: "국내산 고구마·당근·단호박·브로콜리를 골라 씻고 손질하고 익힌 뒤 천천히 말려 담았습니다. 필요한 날 용기를 열어 밥 위에 가볍게 뿌려주세요.",
       foodCareBridge: "번거로운 야채 준비는 저희가 할게요.",
 
       foodIngredientFact1: "국내산 야채",
-      foodIngredientFact1Body: "고구마 · 당근 · 단호박",
+      foodIngredientFact1Body: "고구마 · 당근 · 단호박 · 브로콜리",
       foodIngredientFact2: "식이섬유",
       foodIngredientFact2Body: "야채의 식이섬유를 함께 담았습니다.",
       foodIngredientFact3: "보존료 무첨가",
       foodIngredientFact3Body: "보존료를 따로 넣지 않습니다.",
 
       foodSingleTitle: "하나씩 골라도,<br>좋아하는 조합으로 섞어도.",
-      foodSingleBody: "고구마·당근·단호박을 각각 담았습니다. 한 가지씩 골라주거나 좋아하는 야채끼리 섞어줄 수 있습니다.",
+      foodSingleBody: "고구마·당근·단호박·브로콜리를 각각 담았습니다. 한 가지씩 골라주거나 좋아하는 야채끼리 섞어줄 수 있습니다.",
       foodSweetPotato: "고구마",
       foodCarrot: "당근",
       foodKabocha: "단호박",
+      foodBroccoli: "브로콜리",
 
       foodMadeTitle: "야채 상태를 보며,<br>찌고 천천히 말립니다.",
       foodMadeBody: "원료를 고른 뒤 쪄서 익히고, 낮은 온도에서 천천히 말립니다. 마지막까지 꼼꼼하게 마무리해 밥 위에 뿌려주기 좋은 토퍼 형태로 완성합니다.",
@@ -119,7 +123,7 @@
 
       biz2Strength1Title: "야채로 만든 식사 토퍼",
       biz2Strength1Body: "국내산 야채로 만들어 밥 위에 뿌려주는 식사 토퍼입니다.",
-      biz2Strength2Title: "고구마·당근·단호박, 각각 따로",
+      biz2Strength2Title: "고구마·당근·단호박·브로콜리, 각각 따로",
       biz2Strength2Body: "여러 야채를 섞지 않고 한 가지씩 담아, 고객이 원하는 야채를 쉽게 고를 수 있습니다.",
       biz2Strength3Title: "내용물이 바로 보이는 투명 용기",
       biz2Strength3Body: "야채마다 다른 색과 모양이 보여 제품의 차이를 한눈에 알 수 있습니다.",
@@ -144,7 +148,7 @@
       whyChoice: "골라주고, 섞어주고",
       whyChoiceBody: "한 가지씩 골라도 좋고, 좋아하는 야채끼리 함께 더해도 좋습니다.",
       whyFlavor: "야채마다 다른 맛과 식감",
-      whyFlavorBody: "고구마·당근·단호박이 가진 맛과 향, 식감을 한 끼에 더해줍니다.",
+      whyFlavorBody: "고구마·당근·단호박·브로콜리가 가진 맛과 향, 식감을 한 끼에 더해줍니다.",
       whyEasy: "밥 위에 바로",
       whyEasyBody: "용기를 열어 필요한 만큼 뿌려주세요. 야채를 따로 준비할 필요가 없습니다.",
       footerSlogan: "먹는 즐거움과 건강을 함께 담다.",
@@ -179,16 +183,19 @@
       everydayBody: "Bring a different flavor, aroma and texture to the same everyday meal.<br>Sweet Potato today, Carrot tomorrow—an easy way to change things up from bowl to bowl.",
 
       productsTitle: "Which vegetable today?",
-      productsIntro: "Sweet Potato, Carrot and Kabocha are packed separately, so you can choose what to add today.",
+      productsIntro: "Sweet Potato, Carrot, Kabocha and Broccoli are packed separately, so you can choose what to add today.",
       sweetPotato: "Current Variety",
       sweetPotatoDesc: "The gentle flavor and aroma of sweet potato",
       carrot: "Current Variety",
       carrotDesc: "Carrot’s natural color and aroma",
       kabocha: "Current Variety",
       kabochaDesc: "Kabocha’s naturally rich aroma and flavor",
-      broccoli: "Upcoming Variety",
-      broccoliDesc: "Our next vegetable topper, now in preparation",
-      comingSoon: "COMING SOON",
+      broccoli: "Current Variety",
+      broccoliDesc: "Broccoli’s natural color and aroma",
+      standardSetWeight: "50g × 2 / 100g total",
+      broccoliSetWeight: "25g × 2 / 50g total",
+      productSetInfo: "2-jar set · 50g per jar for Sweet Potato, Carrot and Kabocha; 25g per jar for Broccoli.",
+      productMixedWeight: "One Broccoli jar + one 50g jar: 75g total.",
       smartStore: "View in Smart Store",
 
       whyTitle: "Choose it, mix it, change it up.",
@@ -199,24 +206,25 @@
 
 
       foodHeroTitle: "Good vegetables,<br>made easy to add every day.",
-      foodHeroBody: "PETSRO Veggie Topper is made with Korean-grown sweet potato, carrot and kabocha.<br>We steam and slowly dry each vegetable,<br>then prepare it for easy everyday topping.",
+      foodHeroBody: "PETSRO Veggie Topper is made with Korean-grown sweet potato, carrot, kabocha and broccoli.<br>We steam and slowly dry each vegetable,<br>then prepare it for easy everyday topping.",
 
       foodCareTitle: "Fresh vegetables are worth serving.<br>Preparing them every time can be a lot.",
-      foodCareBody: "We choose Korean-grown sweet potato, carrot and kabocha, then wash, prepare, cook and slowly dry them. When you need them, simply open the jar and sprinkle over the meal.",
+      foodCareBody: "We choose Korean-grown sweet potato, carrot, kabocha and broccoli, then wash, prepare, cook and slowly dry them. When you need them, simply open the jar and sprinkle over the meal.",
       foodCareBridge: "We’ll take care of the vegetable prep.",
 
       foodIngredientFact1: "Korean-Grown Vegetables",
-      foodIngredientFact1Body: "Sweet Potato · Carrot · Kabocha",
+      foodIngredientFact1Body: "Sweet Potato · Carrot · Kabocha · Broccoli",
       foodIngredientFact2: "Fiber",
       foodIngredientFact2Body: "The vegetables bring their natural fiber along with them.",
       foodIngredientFact3: "No Preservatives Added",
       foodIngredientFact3Body: "No preservatives are added.",
 
       foodSingleTitle: "Serve one on its own,<br>or mix your favorites.",
-      foodSingleBody: "Sweet Potato, Carrot and Kabocha are packed separately, so you can serve one at a time or mix your favorites.",
+      foodSingleBody: "Sweet Potato, Carrot, Kabocha and Broccoli are packed separately, so you can serve one at a time or mix your favorites.",
       foodSweetPotato: "Sweet Potato",
       foodCarrot: "Carrot",
       foodKabocha: "Kabocha",
+      foodBroccoli: "Broccoli",
 
       foodMadeTitle: "We watch each vegetable,<br>then steam and dry it slowly.",
       foodMadeBody: "After selecting the ingredients, we steam and slowly dry them at low temperature. We finish each batch carefully in a topper form that is easy to sprinkle over meals.",
@@ -271,7 +279,7 @@
 
       biz2Strength1Title: "A vegetable meal topper",
       biz2Strength1Body: "A meal topper made with Korean-grown vegetables and designed to sprinkle easily over food.",
-      biz2Strength2Title: "Sweet Potato, Carrot and Kabocha—separate varieties",
+      biz2Strength2Title: "Sweet Potato, Carrot, Kabocha and Broccoli—separate varieties",
       biz2Strength2Body: "Each vegetable is packed separately, making it easy for customers to choose the ingredient they want.",
       biz2Strength3Title: "Transparent jars that show the product",
       biz2Strength3Body: "The different colors and pieces are visible at a glance, helping each variety stand apart.",
@@ -296,7 +304,7 @@
       whyChoice: "Choose or Mix",
       whyChoiceBody: "Serve one on its own, or combine the vegetables your dog enjoys.",
       whyFlavor: "Different Flavors & Textures",
-      whyFlavorBody: "Sweet Potato, Carrot and Kabocha each bring their own flavor, aroma and texture.",
+      whyFlavorBody: "Sweet Potato, Carrot, Kabocha and Broccoli each bring their own flavor, aroma and texture.",
       whyEasy: "Straight onto the Bowl",
       whyEasyBody: "Open the jar and sprinkle the amount you need. No separate vegetable prep required.",
       footerSlogan: "More joy and thoughtful choices for everyday mealtimes.",
@@ -325,13 +333,13 @@
     ourFood: {
       ko: {
         title: "PETSRO Our Food | 좋은 재료와 정성을 담는 PETSRO의 음식 이야기",
-        description: "국내산 고구마·당근·단호박을 골라 찌고 천천히 말려, 매일 밥 위에 간편하게 더할 수 있도록 준비하는 PETSRO의 음식 이야기를 소개합니다.",
+        description: "국내산 고구마·당근·단호박·브로콜리를 골라 찌고 천천히 말려, 매일 밥 위에 간편하게 더할 수 있도록 준비하는 PETSRO의 음식 이야기를 소개합니다.",
         ogTitle: "PETSRO Our Food | 좋은 야채를 매일 챙겨주기 쉽게",
         ogDescription: "국내산 야채를 골라 찌고 천천히 말려, 매일 밥 위에 간편하게 더할 수 있도록 준비합니다."
       },
       en: {
         title: "PETSRO Our Food | Good Ingredients, Thoughtfully Prepared",
-        description: "Discover how PETSRO prepares Korean-grown sweet potato, carrot and kabocha as easy everyday meal toppers for dogs.",
+        description: "Discover how PETSRO prepares Korean-grown sweet potato, carrot, kabocha and broccoli as easy everyday meal toppers for dogs.",
         ogTitle: "PETSRO Our Food | Good Ingredients, Thoughtfully Prepared",
         ogDescription: "Korean-grown vegetables, carefully prepared and easy to add to everyday meals."
       }

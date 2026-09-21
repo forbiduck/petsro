@@ -17,7 +17,7 @@
     property="og:description"
     content="국내산 야채로 만들어 밥 위에 간편하게 더하는 PETSRO Veggie Topper."
   >
-  <meta property="og:image" content="https://www.petsro.com/assets/hero-veggie-topper.webp">
+  <meta property="og:image" content="https://www.petsro.com/assets/hero-veggie-topper-4varieties.webp">
   <meta property="og:site_name" content="PETSRO">
 
   <meta name="twitter:card" content="summary_large_image">
@@ -26,14 +26,23 @@
     name="twitter:description"
     content="국내산 야채로 만들어 밥 위에 간편하게 더하는 PETSRO Veggie Topper."
   >
-  <meta name="twitter:image" content="https://www.petsro.com/assets/hero-veggie-topper.webp">
+  <meta name="twitter:image" content="https://www.petsro.com/assets/hero-veggie-topper-4varieties.webp">
 
   <meta name="theme-color" content="#F6F1E7">
 
   <link
     rel="preload"
     as="image"
-    href="assets/hero-veggie-topper.webp"
+    href="assets/hero-veggie-topper-4varieties.webp"
+    media="(min-width:701px)"
+    type="image/webp"
+    fetchpriority="high"
+  >
+  <link
+    rel="preload"
+    as="image"
+    href="assets/hero-veggie-topper-4varieties-mobile.webp"
+    media="(max-width:700px)"
     type="image/webp"
     fetchpriority="high"
   >
@@ -127,18 +136,26 @@
   <main id="main-content">
 
     <!-- HERO -->
-    <section class="home-hero" aria-labelledby="home-hero-title">
+    <section class="home-hero home-hero-four-varieties" aria-labelledby="home-hero-title">
       <div class="home-hero-media">
-        <img
-          src="assets/hero-veggie-topper.webp"
-          alt="PETSRO 야채 토퍼 고구마, 당근, 단호박 3종과 패키지"
-          data-alt-ko="PETSRO 야채 토퍼 고구마, 당근, 단호박 3종과 패키지"
-          data-alt-en="PETSRO Veggie Topper Sweet Potato, Carrot and Kabocha with package"
-          width="1832"
-          height="859"
-          fetchpriority="high"
-          decoding="async"
-        >
+        <picture>
+          <source
+            media="(max-width:700px)"
+            srcset="assets/hero-veggie-topper-4varieties-mobile.webp"
+            width="767"
+            height="727"
+          >
+          <img
+            src="assets/hero-veggie-topper-4varieties.webp"
+            alt="들꽃과 돌 받침 위의 PETSRO 야채 토퍼 고구마, 당근, 단호박, 브로콜리 4종"
+            data-alt-ko="들꽃과 돌 받침 위의 PETSRO 야채 토퍼 고구마, 당근, 단호박, 브로콜리 4종"
+            data-alt-en="PETSRO Sweet Potato, Carrot, Kabocha and Broccoli Veggie Toppers on stone plinths among wildflowers"
+            width="1774"
+            height="887"
+            fetchpriority="high"
+            decoding="async"
+          >
+        </picture>
       </div>
 
       <div class="home-hero-content">
@@ -209,7 +226,7 @@
           <p class="home-section-label">VEGGIE TOPPER LINEUP</p>
           <h2 id="products-title" data-i18n="productsTitle">오늘은 어떤 야채를 더할까요?</h2>
           <p data-i18n="productsIntro">
-            고구마·당근·단호박을 각각 담았습니다. 오늘 챙겨주고 싶은 야채를 골라주세요.
+            고구마·당근·단호박·브로콜리를 각각 담았습니다. 오늘 챙겨주고 싶은 야채를 골라주세요.
           </p>
         </div>
 
@@ -220,6 +237,7 @@
             <h3>Sweet Potato</h3>
             <strong data-i18n="sweetPotato">고구마</strong>
             <p data-i18n="sweetPotatoDesc">고구마 특유의 은은한 맛과 향</p>
+            <p class="home-product-weight" data-i18n="standardSetWeight">50g × 2 / 총 100g</p>
           </article>
 
           <article class="home-product-card is-carrot">
@@ -228,6 +246,7 @@
             <h3>Carrot</h3>
             <strong data-i18n="carrot">당근</strong>
             <p data-i18n="carrotDesc">당근 특유의 색과 향</p>
+            <p class="home-product-weight" data-i18n="standardSetWeight">50g × 2 / 총 100g</p>
           </article>
 
           <article class="home-product-card is-kabocha">
@@ -236,23 +255,22 @@
             <h3>Kabocha</h3>
             <strong data-i18n="kabocha">단호박</strong>
             <p data-i18n="kabochaDesc">단호박 특유의 향과 풍미</p>
+            <p class="home-product-weight" data-i18n="standardSetWeight">50g × 2 / 총 100g</p>
           </article>
 
-          <article class="home-product-card is-broccoli home-coming-card">
-            <div class="home-product-card-top">
-              <div class="home-product-number">04</div>
-              <span class="home-coming-badge" data-i18n="comingSoon">출시 예정</span>
-            </div>
+          <article class="home-product-card is-broccoli">
+            <div class="home-product-number">04</div>
             <div class="home-product-rule" aria-hidden="true"></div>
             <h3>Broccoli</h3>
             <strong data-i18n="broccoli">브로콜리</strong>
-            <p data-i18n="broccoliDesc">다음으로 준비 중인 야채 토퍼</p>
+            <p data-i18n="broccoliDesc">브로콜리 특유의 색과 향</p>
+            <p class="home-product-weight" data-i18n="broccoliSetWeight">25g × 2 / 총 50g</p>
           </article>
         </div>
 
         <div class="home-product-meta">
-          <span>50g × 2 Containers</span>
-          <span>Net Weight 100g</span>
+          <span data-i18n="productSetInfo">2통 구성 · 고구마·당근·단호박은 각 50g, 브로콜리는 25g</span>
+          <span data-i18n="productMixedWeight">브로콜리 1통과 50g 제품 1통 구성 시 총 75g</span>
         </div>
 
         <div class="home-center-action">
@@ -294,7 +312,7 @@
               <circle cx="31" cy="32" r="2.5"/><circle cx="38" cy="29" r="1.5"/>
             </svg>
             <h3 data-i18n="whyFlavor">야채마다 다른 맛과 식감</h3>
-            <p class="home-feature-body" data-i18n="whyFlavorBody">고구마·당근·단호박이 가진 맛과 향, 식감을 한 끼에 더해줍니다.</p>
+            <p class="home-feature-body" data-i18n="whyFlavorBody">고구마·당근·단호박·브로콜리가 가진 맛과 향, 식감을 한 끼에 더해줍니다.</p>
           </article>
 
           <article class="home-feature">
